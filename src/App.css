@@ -1,0 +1,24 @@
+.box-container {
+  display: flex;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  margin: 5px;
+  border: none;
+  font-size: 25px;
+}
+
+.moves-container {
+  display: flex;
+  flex-direction: column;
+  padding-left: 20vh;
+}
+
+.game {
+  display: flex;
+  flex-direction: row;
+
+  height: 50vh;
+}
